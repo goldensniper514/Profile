@@ -4,10 +4,9 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiOutlineMail,
+  AiFillLinkedin,
+  
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-
-
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
@@ -22,7 +21,7 @@ function Footer() {
 <ul className="home-about-social-links">
   <li className="social-icons">
     <a
-      href="https://github.com/codingfaster/"
+      href="https://github.com/angrybee7/"
       target="_blank"
       rel="noreferrer"
       className="icon-colour home-social-icons"
@@ -32,7 +31,7 @@ function Footer() {
   </li>
   <li className="social-icons">
     <a
-      href="https://twitter.com/codingfaster/"
+      href="https://x.com/goldensniper514/"
       target="_blank"
       rel="noreferrer"
       className="icon-colour home-social-icons"
@@ -41,28 +40,28 @@ function Footer() {
     </a>
   </li>
   <li className="social-icons">
-    <a
-      href="https://t.me/codingfaster"
+    {/* <a
+      href="https://t.me/goldensniper514"
       target="_blank"
       rel="noreferrer"
       className="icon-colour home-social-icons"
     >
-      <FaLinkedinIn />
-    </a>
+      <FaTelegram />
+    </a> */}
   </li>
   <li className="social-icons">
     <a
-      href="https://t.me/codingfaster"
+      href="https://discord.gg/balarmountie"
       target="_blank"
       rel="noreferrer"
       className="icon-colour home-social-icons"
     >
-      <AiOutlineMail />
+      <AiFillLinkedin />
     </a>
   </li>
   <li className="social-icons">
     <a
-      href="https://t.me/codingfaster"
+      href="mountiebalar@gmail.com"
       target="_blank"
       rel="noreferrer"
       className="icon-colour home-social-icons"

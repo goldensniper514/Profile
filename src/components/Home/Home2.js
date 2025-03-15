@@ -10,34 +10,13 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em", color:"whitesmoke" }}>
-            Professional <span className="purple"> Summary </span>
+            <h1 style={{ fontSize: "2.6em", color: "whitesmoke" }}>
+              Professional <span className="purple"> Summary </span>
             </h1>
             <p className="home-about-body">
-  <br />
-  <br />Balar Mountie is Senior Full-Stack Blockchain Developer & AI Engineer,  experienced in the
-  <i>
-    <b className="purple"> Senior Full-Stack Blockchain Developer </b>
-  </i>
-  <br />
-  
-  <br />
-  With hands-on experience in building, deploying and managing web applications using AWS services like
-  <i>
-    <b className="purple"> Blockchain, </b>
-  </i>
-   he has expertise in
-  <i>
-    <b className="purple"> AI Engineer. </b>
-  </i>
-  {/* and */}
-  {/* <i>
-    <b className="purple"> AWS Solution Architect Associate. </b>
-  </i> */}
-  <br />
-  <br />
-  Balar is passionate about leveraging cloud technologies to build scalable and efficient serverless solutions.
-</p>
+              Professional Summary:
+              I'm a Full-Stack Software Engineer with experience in Blockchain and AI. I build web apps, smart contracts, and AI tools using React, Node.js, Python, and Solidity. I enjoy creating easy-to-use, reliable, and scalable solutions for both Web2 and Web3 projects.
+            </p>
 
           </Col>
           <Col md={4} className="myAvtar">
@@ -46,8 +25,6 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        
-       
       </Container>
     </Container>
   );

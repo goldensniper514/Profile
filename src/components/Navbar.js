@@ -102,7 +102,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-           
+
           </Nav>
         </Navbar.Collapse>
       </Container>
